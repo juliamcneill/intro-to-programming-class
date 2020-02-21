@@ -1,0 +1,20 @@
+"""
+McNeillJulia_assign1_problem1part1
+
+Written by: Julia McNeill
+Written for: Intro to Programming section 4, Mo-Wed 9:30am, Fall 2019
+
+Date: 15 September, 2019 
+"""
+
+How to Sort 10 Cards in Numerical Order
+
+1. Lay the 10 cards out on a surface.
+2. Pick up any card. This is Card 1.
+3. Pick up another card. This is Card 2. If Card 2 is lower than or equal to the card already in your hand, stack it under the card in your hand. If Card 2 is higher than the card in your hand, stack it over the card in your hand.
+4. Pick up another card. This is Card 3. If Card 3 is lower than or equal to the bottom card in your hand, put it under the bottom card in your hand. If Card 3 is higher than the bottom card in your hand, check if it is lower than or equal to the next card up. If so, put it beneath that card in your hand. If Card 3 is higher than the top card in your hand, put it over the top card in your hand.
+5. Pick up another card. This is Card 4. If Card 4 is lower than or equal to the bottom card in your hand, put it under the bottom card in your hand. If Card 4 is higher than the bottom card in your hand, check if it is lower than or equal to the next card up. If Card 4 is lower than or equal to this card, put it beneath this card in the pile in your hand. If Card 4 is higher than this card, check if it is lower than or equal to the next card up. If so, put it beneath that card in your hand. If Card 4 is higher than the top card in your hand, put it over the top card in your hand; otherwise, put it below the top card. 
+6. Pick up another card. This is Card 5. Repeat the same process used in the previous step, starting from the bottom of the stack of cards in your hand and checking it to see if it is lower than or equal to each card, placing Card 5 under the first card that it is lower than or equal to.
+Repeat this procedure over and over until all 10 cards are in a pile in your hand.
+7. Starting from the bottom of the pile, look at each card and ensure that they are in numerical order, from lowest to highest, without mixing up the pile.
+8. Congratulations! You have 10 sorted cards in numerical order.
